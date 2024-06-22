@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   root "welcome#index"
 
   get '/lists', to: 'lists#index'
-  get '/lists', to: 'list#show'
+  get '/lists/:id', to: 'lists#show'
 end
