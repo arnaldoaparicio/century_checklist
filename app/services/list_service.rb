@@ -4,7 +4,7 @@ class ListService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.single_list(list_id)
+  def self.one_list(list_id)
     response = connection.get("/api/v1/lists/#{list_id}")
     JSON.parse(response.body, symbolize_names: true)
   end
