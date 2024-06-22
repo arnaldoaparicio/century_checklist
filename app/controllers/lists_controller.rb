@@ -5,6 +5,6 @@ class ListsController < ApplicationController
   end
 
   def show 
-    @list = ListFacade.single_list(params)
+    @list = ListFacade.single_list(params[:id])
   end
 end
