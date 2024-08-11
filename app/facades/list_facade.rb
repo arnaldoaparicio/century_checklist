@@ -11,4 +11,11 @@ class ListFacade
     json = ListService.one_list(list_id)
     List.new(json[:data])
   end
+
+  def self.lists_items(list_id)
+    json = ListService.list_collection(list_id)
+    json[:data].map do |item_data|
+      Item.new(item_data)
+    end
+  end
 end
