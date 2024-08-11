@@ -7,6 +7,5 @@ class ListsController < ApplicationController
   def show 
     @list = ListFacade.single_list(params[:id])
     @lists_items = ListFacade.lists_items(params[:id])
-    require "pry"; binding.pry
   end
 end
