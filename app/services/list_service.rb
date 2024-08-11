@@ -9,7 +9,7 @@ class ListService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.list_collection
+  def self.list_collection(list_id)
     response = connection.get("api/v1/lists/#{list_id}/items")
     JSON.parse(response.body, symbolize_names: true)
   end
