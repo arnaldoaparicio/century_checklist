@@ -9,6 +9,11 @@ class ListService
     JSON.parse(response.body, symbolize_names: true)
   end
 
+  def self.list_collection
+    response = connection.get("api/v1/lists/#{list_id}/items")
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
   def self.connection
     Faraday.new(url: 'http://localhost:3000')
   end
