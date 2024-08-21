@@ -3,7 +3,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/izkWI9p.png">
     <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/X9Pv5TJ.png">
 </picture>
-<!-- <img src="https://i.imgur.com/izkWI9p.png" width="50%" height="auto"/> -->
 
 (Based on the Century Bakery logo. Logo subject to change.)
 # README
