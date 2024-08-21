@@ -1,3 +1,7 @@
+# Official Logo
+<img src="https://i.imgur.com/izkWI9p.png" width="50%" height="auto"/>
+
+(Based on the Century Bakery logo. Logo subject to change.)
 # README
 
 This is the frontend for the Century Checklist. The concept behind this app is being able to keep track of inventory on a digital platform. 
