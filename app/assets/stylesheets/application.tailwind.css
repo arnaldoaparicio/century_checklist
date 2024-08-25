@@ -14,5 +14,16 @@
 
 .headerr {
   background-color: #1B3F51;
-  height: 200px;
+  height: 150px;
+}
+
+.wayne-face {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.century-logo {
+  position: relative;
+  top: 10px
 }
